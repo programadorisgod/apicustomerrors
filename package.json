@@ -1,0 +1,21 @@
+{
+  "name": "apicustomerrors",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "errors",
+    "API",
+    "CustomError"
+  ],
+  "author": "Camidev",
+  "license": "ISC",
+  "description": "Modulo para manejar los diferentes tipos de errores que hay a la hora de desarrollar una API",
+  "dependencies": {
+    "apicustomerrors": "^1.0.0"
+  },
+  "repository": "",
+}
