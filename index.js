@@ -8,7 +8,7 @@ class CustomError extends Error {
 }
 
 
-export  class BAD_REQUEST_ERROR extends CustomError {
+export class BAD_REQUEST_ERROR extends CustomError {
     constructor(message) {
         super(message)
         this.name = 'BAD REQUEST ERROR'
