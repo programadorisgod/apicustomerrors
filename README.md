@@ -12,6 +12,9 @@ El paquete incluye las siguientes clases de error personalizadas:
 - `METHOD_NOT_ALLOWED_ERROR`: Para errores de método no permitido (405).
 - `TOO_MANY_REQUESTS_ERROR`: Para errores de demasiadas solicitudes (429).
 - `CONFLICT_ERROR`: Para errores de conflicto (409).
+- `UNSUPPORTED_MEDIA_TYPE_ERROR`: Para errores de tipo de medio no soportado (415).
+- `INTERNAL_SERVER_ERROR`: Para errores internos del servidor (500).
+- `SERVICE_UNAVAILABLE_ERROR`: Para errores de servicio no disponible (503).
 
 Cada clase de error incluye un `name` personalizado, un `statusCode` correspondiente al error HTTP, y un mensaje de error opcional.
 
