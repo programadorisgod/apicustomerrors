@@ -1,6 +1,6 @@
 {
   "name": "apicustomerrors",
-  "version": "1.4.0",
+  "version": "2.0.0",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -12,10 +12,17 @@
     "CustomError",
     "Error",
     "Not found",
-    "INTERNAL SERVER ERROR"
+    "INTERNAL SERVER ERROR",
+    "RFC 9457",
+    "Problem Details",
+    "HTTP API",
+    "Error handling",
+    "Express middleware",
+    "JSON error format",
+    "API error responses"
   ],
   "author": "Camidev",
   "license": "ISC",
-  "description": "Modulo para manejar los diferentes tipos de errores que hay a la hora de desarrollar una API",
+  "description": "Módulo para manejar errores HTTP siguiendo RFC 9457 Problem Details for HTTP APIs. Incluye clases de error predefinidas, middleware para Express y soporte completo para el formato estándar de Problem Details.",
   "repository": "programadorisgod/apicustomerrors"
 }
