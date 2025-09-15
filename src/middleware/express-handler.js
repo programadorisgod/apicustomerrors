@@ -6,10 +6,13 @@ export function problemDetailsHandler() {
     if (err instanceof ProblemDetailsError) {
       const response = err.toJSON();
       response.instance = req.originalUrl;
-      res.status(err.status).type('application/problem+json').json(response);
+      return res
+        .status(err.status)
+        .type("application/problem+json")
+        .json(response);
     }
 
-    return res.status(500).type('application/problem+json').json({
+    return res.status(500).type("application/problem+json").json({
       type: "about:blank",
       title: "Internal Server Error",
       status: statusCodes.INTERNAL_SERVER_ERROR,
