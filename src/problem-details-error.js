@@ -9,11 +9,11 @@ export class ProblemDetailsError extends Error {
     this.instance = instance || "";
     this.errors = errors || null;
     this.extra = extra || null;
-    this.timestamp = new Date.toISOString();
+    this.timestamp = new Date().toISOString();
   }
 
   toJSON() {
-     const json =  {
+    const json = {
       type: this.type,
       title: this.name,
       status: this.status,
