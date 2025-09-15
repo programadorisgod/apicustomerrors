@@ -13,7 +13,7 @@ export class ProblemDetailsError extends Error {
   }
 
   toJSON() {
-    return {
+     const json =  {
       type: this.type,
       title: this.name,
       status: this.status,
