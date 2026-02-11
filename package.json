@@ -1,8 +1,11 @@
 {
   "name": "@camidevv/apicustomerrors",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "main": "index.js",
   "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
